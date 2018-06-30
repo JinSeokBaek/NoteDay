@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ListActivity"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:showIn="@layout/activity_list">
+    <ListView
+        android:id="@+id/lvList"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:dividerHeight="10dp"
+        android:divider="#0fff"
+        android:clipToPadding="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/textview"
+        android:text="@string/no_diary"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+</LinearLayout>

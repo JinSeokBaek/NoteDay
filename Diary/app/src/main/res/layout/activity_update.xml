@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llupdate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    tools:context=".UpdateActivity">
+
+    <DatePicker
+        android:id="@+id/datePicker_upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <EditText
+        android:id="@+id/etTitle_upgrade"
+        style="@style/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/insert_title"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/etContent_upgrade"
+        style="@style/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/insert_content"
+        android:inputType="textMultiLine"
+        android:minLines="15" />
+
+
+    <!--<RadioGroup-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.7"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb1"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:checked="true"-->
+    <!--android:background="@drawable/rb_color_white"-->
+    <!--android:button="@null" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb2"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:background="@drawable/rb_color_black"-->
+    <!--android:button="@null" />-->
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb3"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:background="@drawable/rb_color_red"-->
+    <!--android:button="@null" />-->
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb4"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:background="@drawable/rb_color_red"-->
+    <!--android:button="@null" />-->
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb5"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginStart="10dp"-->
+    <!--android:background="@drawable/rb_color_red"-->
+    <!--android:button="@null" />-->
+    <!--</RadioGroup>-->
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#2ccc"
+    android:id="@+id/ll_list"
+    android:layout_marginBottom="30dp"
+    android:clickable="true"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textSize="30sp"
+        android:text="Title"
+        android:ellipsize="end"
+        android:singleLine = "true"
+        android:lines="2"
+        style="@style/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvDate"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:text="Date"
+        style="@style/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvDate2"
+        android:gravity="end"
+        android:textSize="15sp"
+        android:text="@string/wrtie_date"
+        style="@style/textview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

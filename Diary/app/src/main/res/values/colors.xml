@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0188b4</color>
+    <color name="colorPrimaryDark">#001325</color>
+    <color name="colorAccent">#0188b4</color>
+
+    <color name="color_default">#2ccc</color>
+
+
+    <color name="color_white">#2ccc</color>
+    <color name="color_red">#6f00</color>
+    <color name="color_orange">#66FFBB00</color>
+    <color name="color_skyblue">#6600D8FF</color>
+    <color name="color_green">#661DDB16</color>
+    <color name="color_blue">#662524FF</color>
+    <color name="color_black">#6000</color>
+
+    <color name="ncolor_red">#f00</color>
+    <color name="ncolor_orange">#FFBB00</color>
+    <color name="ncolor_skyblue">#00D8FF</color>
+    <color name="ncolor_green">#1DDB16</color>
+    <color name="ncolor_blue">#2524FF</color>
+    <color name="ncolor_black">#000</color>
+
+    <color name="background">#03445a</color>
+    <color name="actionbar">#001325</color>
+    <color name="toolbar">#0188b4</color>
+    <color name="date">#02384a</color>
+    <color name="list">#578c9d</color>
+</resources>
